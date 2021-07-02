@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Yahoo!テレビ - Hide overlay ads
 // @namespace    http://iwamot.com/
-// @version      1.0.1
+// @version      1.0.2
 // @author       IWAMOTO Takashi <hello@iwamot.com> http://iwamot.com/
 // @description  Yahoo!テレビのオーバーレイ広告を非表示にします。
 // @include      https://tv.yahoo.co.jp/*
@@ -10,4 +10,4 @@
 // @grant        GM_addStyle
 // ==/UserScript==
 
-GM_addStyle('aside {display: none;}');
+GM_addStyle('aside, .listingUpper {display: none;}');
